@@ -1,14 +1,12 @@
 <template>
   <div id="app">
-    <div class="container">
-      <AddTodo />
-      <FilterTodos />
-      <Todos />
+      <Navbar />
     </div>
-  </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar/Navbar';
+import Auth from './components/Auth/Auth';
 import Todos from "./components/Todos/Todos";
 import AddTodo from "./components/Todos/AddTodo";
 import FilterTodos from "./components/Todos/FilterTodos";
@@ -16,9 +14,11 @@ import FilterTodos from "./components/Todos/FilterTodos";
 export default {
   name: "app",
   components: {
-    Todos,
-    AddTodo,
-    FilterTodos
+    Navbar,
+    Auth
+    // Todos,
+    // AddTodo,
+    // FilterTodos
   },
 
   data() {
@@ -28,16 +28,5 @@ export default {
 </script>
 
 <style>
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  line-height: 1.6;
-  background: #e8f7f0;
-}
 
-.container {
-  max-width: 1100px;
-  margin: auto;
-  overflow: auto;
-  padding: 0 2rem;
-}
 </style>
