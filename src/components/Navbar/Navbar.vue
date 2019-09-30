@@ -1,20 +1,18 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Logo Will Go Here</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <router-link to="/" class="nav-link" href="#">Home</router-link>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <router-link to="/historical" class="nav-link" href="#">Historical Trends</router-link>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Enroll Now<span class="sr-only">(current)</span></a>
+        <router-link to="/teams" class="nav-link" href="#">Teams</router-link>
+      </li>
+      <li class="nav-item active">
+        <router-link to="/players" class="nav-link" href="#">Players</router-link>
       </li>
     </ul>
   </div>
