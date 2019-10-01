@@ -14,6 +14,9 @@
       <li class="nav-item active">
         <router-link to="/players" class="nav-link" href="#">Players</router-link>
       </li>
+      <li class="nav-item active">
+        <router-link to="/stats" class="nav-link" href="#">Stats</router-link>
+      </li>
     </ul>
   </div>
 </nav>
