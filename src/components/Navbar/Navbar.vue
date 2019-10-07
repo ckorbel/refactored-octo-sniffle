@@ -17,6 +17,9 @@
       <li class="nav-item active">
         <router-link to="/stats" class="nav-link" href="#">Stats</router-link>
       </li>
+      <li class="nav-item active">
+        <router-link to="/admin" class="nav-link" href="#">Admin</router-link>
+      </li>
     </ul>
   </div>
 </nav>

@@ -11,6 +11,28 @@ export default {
   name: "Players",
   components: {
     SortableLeaderTable,
+  },
+
+  data() {
+    return {
+      rowData: [
+        { 
+          "points": "Alfreds Futterkiste", 
+          "rebounds": "Maria Anders", 
+          "steals": "Germany"
+        },
+        {
+          "points": "Alfreds Futterkiste", 
+          "rebounds": "Maria Anders", 
+          "steals": "Germany"
+        },
+        {
+          "points": "Alfreds Futterkiste", 
+          "rebounds": "Maria Anders", 
+          "steals": "Germany"
+        }
+      ]
+    };
   }
 }
 </script>
