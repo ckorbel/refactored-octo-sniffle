@@ -9,10 +9,10 @@
         <router-link to="/historical" class="nav-link" href="#">Historical Trends</router-link>
       </li>
       <li class="nav-item active">
-        <router-link to="/teams" class="nav-link" href="#">Teams</router-link>
+        <router-link to="/nba" class="nav-link" href="#">NBA</router-link>
       </li>
       <li class="nav-item active">
-        <router-link to="/players" class="nav-link" href="#">Players</router-link>
+        <router-link to="/nfl" class="nav-link" href="#">NFL</router-link>
       </li>
       <li class="nav-item active">
         <router-link to="/stats" class="nav-link" href="#">Stats</router-link>

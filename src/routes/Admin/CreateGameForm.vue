@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit="onSubmit">
   <div class="form-group">
     <label>Odd Type:</label>
     <input type="text" class="form-control" v-model="game.oddType" name="oddType" placeholder="Game">
@@ -14,7 +14,7 @@
   </div>
   <div class="form-group">
     <label>Season:</label>
-    <input type="text" class="form-control" v-modal="game.season" name="season" placeholder="2019-20">
+    <input type="text" class="form-control" v-model="game.season" name="season" placeholder="2019-20">
   </div>
   <div class="form-group">
     <label>Match Time:</label>
@@ -127,7 +127,14 @@ export default {
         }
       }
     }
+  },
+
+  methods: {
+    onSubmit(e) {
+      e.preventDefault();
+    }
   }
+
 }
 </script>
 

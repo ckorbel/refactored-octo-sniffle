@@ -1,15 +1,15 @@
 import Home from "./routes/Home/Home";
 import HistoricalTrends from "./routes/HistoricalTrends/HistoricalTrends";
-import Teams from "./routes/Teams/Teams";
-import Players from "./routes/Players/Players";
+import NBA from "./routes/NBA/NBA";
+import NFL from "./routes/NFL/NFL";
 import Stats from "./routes/Stats/Stats";
 import Admin from "./routes/Admin/Admin";
 
 export default [
   { path: "/", component: Home },
   { path: "/historical", component: HistoricalTrends },
-  { path: "/teams", component: Teams },
-  { path: "/players", component: Players },
+  { path: "/nba", component: NBA },
+  { path: "/nfl", component: NFL },
   { path: "/stats", component: Stats },
   { path: "/admin", component: Admin }
 ];
